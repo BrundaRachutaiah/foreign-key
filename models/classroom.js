@@ -10,7 +10,7 @@ let classroom = sequelize.define('classroom', {
     }
 })
 
-classroom.belongsTo(teacher, {foreignKey: 'teacherId'})
-teacher.hasMany(classroom, {foreignKey: 'teacherId'})
+classroom.belongsTo(teacher, { foreignKey: "teacherId" });
+teacher.hasMany(classroom, { foreignKey: "teacherId" });
 
 module.exports = classroom

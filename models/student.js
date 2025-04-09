@@ -15,7 +15,7 @@ let student = sequelize.define('student', {
         allowNull: false
     },
     classroomId: {
-        type: DataTypes.NUMBER,
+        type: DataTypes.INTEGER,
     }
 })
 
